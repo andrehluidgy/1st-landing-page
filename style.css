@@ -1,0 +1,140 @@
+*{
+    margin: 0px;
+    font-family: "inter";
+}
+
+#logo{
+    margin: 52px 0px 0px 56px;
+}
+
+#título-menu-superior{
+    margin: 50px 0px 0px 150px;
+}
+
+#texto-menu-superior{
+    margin: 30px 0px 0px 150px;
+    padding-bottom: 100px;
+}
+
+#menu-superior{
+    background-image: url(imagens/fundo-menu-superior.svg);
+    color: white;
+}
+
+#menu-informacional{
+    background-color:#EAECE5;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    padding: 50px 0px 50px 0px;
+}
+
+.icone{
+    margin-left: 150px;
+    padding: 25px;
+}
+
+.textoinformativo{
+    display: flex;
+    align-items: center;
+    
+}
+
+#secao-video{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+#titulo-video{
+    color: #247BA0;
+    margin-top: 50px;
+    margin-right: 300px;
+}
+
+#texto-video{
+    color: #383838;
+}
+
+#video{
+    margin: 50px 0px 50px 150px;
+}
+
+#carrossel{
+    background-color: #247BA0;
+    padding: 75px;
+    height: 244px;
+}
+
+#titulo-carrossel{
+    color:#EAECE5;
+    text-align: center;
+    font-size: 25px;
+}
+
+#div-cards{
+    margin-top: 50px;
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.card{
+    margin-left: 50px;
+}
+
+#seta-esquerda{
+    display: none;
+}
+
+#leo{
+    display: none;
+}
+
+.seta{
+    margin-top: 30%;
+    cursor: pointer;
+}
+
+.seta:hover {
+    transform:translateY(-4px);
+    transition-duration: 35ms;
+}
+
+#forms{
+    text-align: center;
+}
+
+#titulo-forms{
+    font-size: 25px;
+    margin: 25px;
+    color: #383838;
+}
+
+input{
+    width: 323.55px;
+    height: 40px;
+    background-color: #EAECE5;
+    margin: 15px;
+    border: 5px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+button{
+    background-color: #247BA0;
+    color: #f3efef;
+    margin: 15px;
+    height: 40px;
+    width: 260px;
+    border: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #329bc9;
+    color: #FFFFFF;
+    transform: translateY(-2px);
+    box-shadow: 0px 8px 15px #111f25;
+    transition-duration: 0.5s;
+}
